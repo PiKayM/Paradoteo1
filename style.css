@@ -1,0 +1,218 @@
+
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+    text-align: center;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+    min-height: 100vh;
+    position:relative
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.top-row{
+    height:6vw; 
+    background-color: lightgray; 
+    width: 100%;
+}
+
+.logo{
+    height: 100%; 
+    float:left; 
+    padding-left:6%;
+    content:url("img1.jpg");
+}
+
+
+.top-row-text{
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    float: inline-end; 
+    padding-inline: 3%; 
+    font-size:2vw;
+    height: 100%;
+    text-decoration: none;
+    color: black;
+}
+.headline-box{
+    margin:3%;
+    font-size: large;
+    width: 27%;
+    height: 100%;
+    float:inline-start;
+    background-color:khaki;
+    border-radius: 15px;
+}
+.headline-image{
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.headline-title{
+    width: 100%;
+    font-size: 3vw;
+    text-align: center;
+    font-weight: bold;
+}
+.headline-text{
+    font-size: 2vw;
+    text-align: left;
+    margin: 2%;
+}
+.FAQ-title{
+    font-size: 5vw;
+    text-align: center;
+    font-weight: bold;
+}
+
+.faq-question > summary{
+    user-select: none;
+    margin-top: 3%;
+    font-size: 4vw;
+    text-align: center;
+    box-shadow: 3px 3px 4px black;
+    background-color:beige;
+}
+
+.faq-question > p{
+    margin: 0;
+    font-size: 3vw;
+    text-align: center;
+    box-shadow: 3px 3px 4px black;
+    background-color:beige;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.bottom-row{
+    bottom: 0;
+    height: 6vw;
+    width: 100%; 
+    margin-top: 2%; 
+    background-color:white;
+}
+
+.accordion-button:not(.collapsed) {
+    color: var(--bs-accordion-active-color);
+    background-color: beige;
+    box-shadow: inset 0 calc(-1 * var(--bs-accordion-border-width)) 0 var(--bs-accordion-border-color);
+} 
+
+.accordion{
+    width: 100%;
+}
+
+.links{
+    height: 100%;
+    text-align: center;
+    align-self: center;
+    display: inline-flex;
+    width: fit-content;
+}
+
+.bottom-link{
+    margin-inline: 8%;
+    display: flex;
+    color: black;
+    width:auto;
+    height:100%;
+    font-size: 2vw;
+    float:left;
+    align-items: center;
+    text-decoration: none;
+}
+
+.social-media{
+    height:100%;
+    width: 3vw;
+    float:right;
+    margin-inline: 1%;
+    align-items: center;
+    display: flex;    
+    padding-top: 1.5vw;
+    padding-bottom: 1.5vw;
+}
+
+.social-media-picture{
+    height: 100%;
+    width:100%;
+    
+}
+
+.copyrights{
+    text-align: center;
+    align-self: center;
+    height: 4vw;
+    margin-inline: 27%;
+    box-sizing: border-box;
+}
+
+.copyright-text{
+    float: left;
+    margin-inline: 9%;
+    display: flex;
+    color: gray;
+    width:auto;
+    height:100%;
+    font-size: 1.4vw;
+    align-items: center;
+}
+
+.button-container{
+    height:100%;
+    margin-inline: 2%;
+    display: flex;
+    float: inline-end;
+}
+
+.top-row-button{
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    align-self: center;
+    width: 8vw;
+    height: 3vw;
+    font-size: 1vw;
+}
+
+.top-row-button:hover{
+    background-color: beige;
+    color: black;
+}
